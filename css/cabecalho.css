@@ -1,0 +1,151 @@
+.cabecalho_logo img {
+    max-width: 340px;
+    width: 100%;
+}
+
+.cabecalho_ld_informacoes p {
+    border: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    font-family: 'Oswald';
+    color: #33495A;
+    text-transform: uppercase;
+    margin-left: 0px;
+    max-width: 165px;
+    height: 16px;
+    width: 57%;
+    display: inline-block;
+    margin-top: 20%;
+}
+
+.cabecalho_ld_informacoes_icones ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 40%;
+}
+
+.cabecalho_ld_informacoes_icones li {
+    margin: 0px;
+    border: 0px;
+    height: 100%;
+    width: 29%;
+    display: inline-block;
+}
+
+.cabecalho_ld_informacoes_icones img {
+    max-height: 32px;
+    max-width: 32px;
+    width: 100%;
+}
+
+.central_assinante {
+    font-family: 'Oswald';
+    background: #016EF4;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 86%;
+    top: 10px;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.central_assinante:hover {
+    background-color: #000000;
+}
+
+.container_2_menu ul {
+    height: 100%;
+    width: 100%;
+}
+
+.container_2_menu li {
+    display: inline-block;
+    /*padding-bottom: 2.6%;
+    padding-top: 2.69%;*/
+    text-align: center;
+    transition: all 0.3s ease-out;
+    position: relative;
+    letter-spacing: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    padding: 2.59% 2.1%
+}
+
+.container_2_menu a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 86%;
+    line-height: 18px;
+}
+
+.container_2_menu li:hover {
+    background: #016EF4;
+}
+
+.grade_4 div {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding: 18px;
+}
+
+.rodape {
+    display: inline-block;
+    width: 220px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.rodape_titulo h5 {
+    font-size: 90%;
+    color: #fff;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 5%;
+}
+
+.rodape_lista ul {
+    padding-left: 6%;
+    margin-top: 0%;
+}
+
+.rodape_lista li {
+    padding-left: 11px;
+    background: url(../imagens/arrow-3.png) 3px 8px no-repeat;
+    margin-bottom: 3%;
+    list-style: none;
+}
+
+.rodape_lista a {
+    font: bold 10px/10px Arial, sans-serif;
+    color: #b2b2b2;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-family: 'Oswald', sans-serif;
+}
+
+.rodape_lista a:hover {
+    color: #016EF4;
+}
+
+.rodape_logo img {
+    width: 100%;
+    height: 100%;
+}
