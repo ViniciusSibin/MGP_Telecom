@@ -30,10 +30,31 @@ body {
     min-height: 150px;
 }
 
-.container_2 {
-    min-height: 57px;
-    width: 100%;
+.bg-1 {
     background: #33495a;
+    -webkit-text-size-adjust: none;
+    display: block;
+}
+
+.container_2 {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    background: transparent;
+    font-size: 100%;
+    border: 0;
+    outline: 0;
+    vertical-align: top;
+    -webkit-text-size-adjust: none;
+}
+
+.container_2:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
 
 .container_3 {
@@ -79,10 +100,22 @@ body {
     height: 100%;
 }
 
-.container_2_menu {
-    margin: auto;
-    width: 45%;
-    height: 100%;
+.grade_2 {
+    width: 100%;
+    min-width: 720px;
+    float: left;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: transparent;
+    font-size: 100%;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: top;
+    -webkit-text-size-adjust: none;
 }
 
 .grade_3 {

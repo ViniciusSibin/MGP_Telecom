@@ -63,33 +63,90 @@
     background-color: #000000;
 }
 
-.container_2_menu ul {
-    height: 100%;
-    width: 100%;
+.fila {
+    background: transparent;
+    font-size: 100%;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: top;
+    -webkit-text-size-adjust: none;
 }
 
-.container_2_menu li {
-    display: inline-block;
-    /*padding-bottom: 2.6%;
-    padding-top: 2.69%;*/
-    text-align: center;
-    transition: all 0.3s ease-out;
+nav {
     position: relative;
-    letter-spacing: 0px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: bolder;
-    padding: 2.59% 2.2%
+    z-index: 11;
+    background: transparent;
+    font-size: 100%;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: top;
+    -webkit-text-size-adjust: none;
 }
 
-.container_2_menu a {
+.menu_ul {
+    list-style: none;
+    background: transparent;
+    font-size: 100%;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: top;
+    -webkit-text-size-adjust: none;
+}
+
+.menu_ul::before {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+.menu_ul li {
+    background: no-repeat;
+    position: relative;
+    float: left;
+    padding-left: 0px;
+    font-size: 100%;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: top;
+    -webkit-text-size-adjust: none;
+}
+
+.menu_ul a {
+    display: block;
+    padding: 23px 21px 23px;
+    text-align: center;
+    font-weight: bolder;
+    -webkit-transition: background 0.3s ease-out;
+    position: relative;
+    letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
-    text-transform: uppercase;
-    font-size: 86%;
-    line-height: 25px;
+    font-size: 85%;
+    line-height: 100%;
+    margin: 0;
+    margin-top: 0px;
+    border: 0;
+    outline: 0;
 }
 
-.container_2_menu a:hover {
+.menu_ul a:hover {
     background: #016EF4;
 }
 
