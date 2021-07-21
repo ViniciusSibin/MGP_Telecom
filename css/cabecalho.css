@@ -78,7 +78,7 @@
     letter-spacing: 0px;
     font-family: 'Oswald', sans-serif;
     font-weight: bolder;
-    padding: 2.59% 2.1%
+    padding: 2.59% 2.2%
 }
 
 .container_2_menu a {
@@ -89,7 +89,7 @@
     line-height: 25px;
 }
 
-.container_2_menu li:hover {
+.container_2_menu a:hover {
     background: #016EF4;
 }
 
