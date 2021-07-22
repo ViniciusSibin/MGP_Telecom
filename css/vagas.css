@@ -1,0 +1,45 @@
+.vagasDescricao {
+    width: 100%;
+}
+
+.vagasDescricaoLE {
+    width: 46%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.vagasDescricaoLE h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.vagasDescricaoLE p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    padding-top: 14px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.vagasDescricaoLD {
+    width: 52%;
+    max-width: 675.91px;
+    display: inline-block;
+    float: right;
+}
+
+.vagasDescricaoLD img {
+    max-width: 675.91px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.vagas_botao {}
