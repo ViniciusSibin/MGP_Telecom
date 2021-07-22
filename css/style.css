@@ -7,7 +7,7 @@ html {
 
 body {
     text-align: left;
-    background: #fff;
+    background: rgba(238, 235, 235, 0.904);
     font-family: Verdana, Tahoma, Arial;
     margin: 0;
     padding: 0;
@@ -38,7 +38,7 @@ body {
 
 .container_2 {
     position: relative;
-    width: 50%;
+    width: 44%;
     margin: 0 auto;
     padding: 0;
     background: transparent;
@@ -102,7 +102,7 @@ body {
 
 .grade_2 {
     width: 100%;
-    min-width: 720px;
+    min-width: 680px;
     float: left;
     display: inline;
     margin-left: 10px;
@@ -207,7 +207,7 @@ body {
 .grade_8_bg_1 {
     width: 100%;
     max-height: 348px;
-    background: #016EF4;
+    background: #088ad6fb;
 }
 
 .grade_9_banner {
