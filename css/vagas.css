@@ -3,7 +3,7 @@
 }
 
 .vagasDescricaoLE {
-    width: 46%;
+    width: 45%;
     display: inline-block;
     vertical-align: top;
 }
@@ -11,35 +11,61 @@
 .vagasDescricaoLE h1 {
     font-family: 'Oswald', sans-serif;
     color: #000000;
-    font-size: 30px;
+    font-size: 220%;
     line-height: 30px;
-    text-align: center;
+    text-align: left;
     padding-top: 28px;
     padding-bottom: 28px;
 }
 
 .vagasDescricaoLE p {
-    font-size: 14px;
+    font-size: 101%;
     line-height: 24px;
     color: #000000;
     padding-top: 14px;
     font-weight: 600;
-    text-align: justify;
+    width: 100%;
 }
 
 .vagasDescricaoLD {
-    width: 52%;
-    max-width: 675.91px;
+    width: 54%;
+    max-width: 719.91px;
+    max-height: 482px;
     display: inline-block;
-    float: right;
 }
 
 .vagasDescricaoLD img {
-    max-width: 675.91px;
+    max-width: 719.91px;
+    max-height: 482px;
     width: 100%;
     margin: 0px;
     padding: 0px;
     position: relative;
 }
 
-.vagas_botao {}
+.vagas_botao_tamanho {
+    width: 36%;
+}
+
+.vagas {
+    font-family: 'Oswald';
+    background: #1FA2DA;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: bolder;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    top: 30px;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.vagas:hover {
+    background-color: #000000;
+}
+
+.vagas {}

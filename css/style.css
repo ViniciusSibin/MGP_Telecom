@@ -97,7 +97,8 @@ body {
 
 .container_10 {
     position: relative;
-    width: 90%;
+    width: 75%;
+    min-height: 483px;
     margin: 0 auto;
     padding: 0;
     background: transparent;
