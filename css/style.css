@@ -39,7 +39,9 @@ body {
 
 .container_2 {
     position: relative;
-    width: 44%;
+    width: 38%;
+    max-width: 1000px;
+    min-width: 755px;
     margin: 0 auto;
     padding: 0;
     background: transparent;
@@ -112,6 +114,7 @@ body {
 .grade_1 {
     margin: auto;
     width: 63%;
+    max-width: 1000px;
     height: 100%;
 }
 
