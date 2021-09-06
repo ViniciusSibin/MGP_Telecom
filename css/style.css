@@ -32,7 +32,7 @@ body {
 }
 
 .bg-1 {
-    background: #33495a;
+    background: #293095;
     -webkit-text-size-adjust: none;
     display: block;
 }
@@ -63,14 +63,14 @@ body {
 .container_3 {
     max-height: 170px;
     width: 100%;
-    background: #33495a;
+    background: #293095;
     ;
 }
 
 .container_4 {
     height: 50px;
     width: 100%;
-    background: #4B6270;
+    background: #1686d8;
 }
 
 .container_5 {
@@ -218,14 +218,15 @@ body {
 }
 
 .rodape_logo {
-    width: 300px;
-    height: 160px;
+    margin-top: 5px;
+    width: 116%;
+    height: 100%;
 }
 
 .grade_8_bg_1 {
     width: 100%;
     max-height: 348px;
-    background: #088ad6fb;
+    background: #293095;
 }
 
 .grade_9_banner {

@@ -48,10 +48,10 @@
 }
 
 .vagas {
-    font-family: 'Oswald';
-    background: #1FA2DA;
-    color: #ffffff;
-    font-size: 21px;
+    font-family: Verdana, Tahoma, Arial;
+    background: #F09101;
+    color: #000;
+    font-size: 16px;
     font-weight: bolder;
     padding: 12px 20px;
     border: none;
@@ -65,5 +65,6 @@
 }
 
 .vagas:hover {
-    background-color: #000000;
+    background-color: #293095;
+    color: #fff;
 }

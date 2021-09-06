@@ -42,9 +42,8 @@
 }
 
 .central_assinante {
-    font-family: 'Oswald';
-    background: #016EF4;
-    color: #ffffff;
+    background: #f09101;
+    color: #000000;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: bolder;
@@ -60,7 +59,8 @@
 }
 
 .central_assinante:hover {
-    background-color: #000000;
+    background-color: #293095;
+    color: #fff;
 }
 
 .fila {
@@ -102,15 +102,6 @@ nav {
     -webkit-text-size-adjust: none;
 }
 
-.menu_ul::before {
-    content: '\0020';
-    display: block;
-    overflow: hidden;
-    visibility: hidden;
-    width: 0px;
-    height: 0px;
-}
-
 .menu_ul li {
     background: no-repeat;
     position: relative;
@@ -131,7 +122,6 @@ nav {
     padding: 23px 21px 23px;
     text-align: center;
     font-weight: bolder;
-    -webkit-transition: background 0.3s ease-out;
     position: relative;
     letter-spacing: 1px;
     font-family: 'Oswald', sans-serif;
@@ -147,14 +137,15 @@ nav {
 }
 
 .menu_ul a:hover {
-    background: #016EF4;
+    background: #f09101;
+    color: #000000;
 }
 
 .grade_4 div {
     text-transform: uppercase;
     text-align: center;
     font-weight: bolder;
-    color: #ffffff;
+    color: #fff;
     font-size: 12px;
     letter-spacing: 0.5px;
     padding: 18px;
@@ -191,7 +182,7 @@ nav {
 
 .rodape_lista a {
     font: bold 10px/10px Arial, sans-serif;
-    color: #b2b2b2;
+    color: #fff;
     text-transform: uppercase;
     text-decoration: none;
     transition: all 0.4s ease;
@@ -199,7 +190,7 @@ nav {
 }
 
 .rodape_lista a:hover {
-    color: #016EF4;
+    color: #F09101;
 }
 
 .rodape_logo img {
