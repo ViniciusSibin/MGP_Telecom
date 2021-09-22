@@ -1,37 +1,21 @@
 .cabecalho_logo img {
-    max-width: 340px;
+    max-width: 200px;
     width: 100%;
-}
-
-.cabecalho_ld_informacoes p {
-    border: 0px;
-    padding: 0px;
-    font-size: 12px;
-    font-weight: bolder;
-    letter-spacing: 0.5px;
-    font-family: 'Oswald';
-    color: #33495A;
-    text-transform: uppercase;
-    margin-left: 0px;
-    max-width: 165px;
-    height: 16px;
-    width: 57%;
-    display: inline-block;
-    margin-top: 20%;
+    margin-top: 3%;
 }
 
 .cabecalho_ld_informacoes_icones ul {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
-    margin-top: 40%;
+    /* margin-top: 40%;*/
 }
 
 .cabecalho_ld_informacoes_icones li {
     margin: 0px;
     border: 0px;
-    height: 100%;
-    width: 29%;
+    /* height: 100%; */
+    /* width: 35%; */
     display: inline-block;
 }
 
