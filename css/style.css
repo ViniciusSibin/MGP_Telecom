@@ -8,7 +8,7 @@ html {
 
 body {
     text-align: left;
-    background: rgba(238, 235, 235, 0.904);
+    background: #293095;
     font-family: Verdana, Tahoma, Arial;
     margin: 0;
     padding: 0;
@@ -27,8 +27,15 @@ body {
     margin: auto;
 }
 
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+
 .container_1 {
     min-height: 100px;
+    background: rgba(238, 235, 235, 0.904);
 }
 
 .bg-1 {
@@ -67,10 +74,8 @@ body {
     ;
 }
 
-.container_4 {
-    height: 50px;
-    width: 100%;
-    background: #1686d8;
+.container_4 {   background: #293095;
+    ;
 }
 
 .container_5 {
@@ -91,6 +96,7 @@ body {
 .container_8 {
     min-height: 620px;
     width: 100%;
+    background: #293095;
 }
 
 .container_9 {
@@ -99,8 +105,8 @@ body {
 
 .container_10 {
     position: relative;
-    width: 75%;
-    min-height: 483px;
+    width: 100%;
+    min-height: 430px;
     margin: 0 auto;
     padding: 0;
     background: transparent;
@@ -186,10 +192,7 @@ body {
 }
 
 .cabecalho_ld {
-    /* max-height: 150px; */
-    /* max-width: 290px; */
-    /* min-width: 73px; */
-    width: 18%;
+    width: 17%;
     min-height: 100px;
     float: right;
     margin-right: 12%;
@@ -210,23 +213,7 @@ body {
 .cabecalho_ld_botao {
     height: 50%;
     width: 100%;
-}
-
-.rodape_titulo {
-    width: 100%;
-    max-height: 40px;
-}
-
-.rodape_logo {
-    margin-top: 5px;
-    width: 116%;
-    height: 100%;
-}
-
-.grade_8_bg_1 {
-    width: 100%;
-    max-height: 348px;
-    background: #293095;
+    margin-top: 5%;
 }
 
 .grade_9_banner {

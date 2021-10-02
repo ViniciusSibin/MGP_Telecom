@@ -1,9 +1,14 @@
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
 .vagasDescricao {
     width: 100%;
 }
 
 .vagasDescricaoLE {
-    width: 45%;
+    width: 49%;
     display: inline-block;
     vertical-align: top;
 }
@@ -15,20 +20,22 @@
     line-height: 30px;
     text-align: left;
     padding-top: 28px;
+    margin-left: 21%;
     padding-bottom: 28px;
 }
 
 .vagasDescricaoLE p {
-    font-size: 101%;
+    font-size: 100%;
     line-height: 24px;
     color: #000000;
     padding-top: 14px;
-    font-weight: 600;
-    width: 100%;
+    font-weight: 400;
+    width: 86%;
+    margin-left: 8%;
 }
 
 .vagasDescricaoLD {
-    width: 54%;
+    width: 48%;
     max-width: 719.91px;
     max-height: 482px;
     display: inline-block;
@@ -45,6 +52,7 @@
 
 .vagas_botao_tamanho {
     width: 36%;
+    margin-left: 28%;
 }
 
 .vagas {

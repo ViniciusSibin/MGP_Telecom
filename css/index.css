@@ -1,6 +1,6 @@
     .grade_8 h1 {
         font-family: 'Oswald', sans-serif;
-        color: #FFFFF8;
+        color: #F09101;
         font-size: 30px;
         line-height: 30px;
         background: url(../imagens/index/bord-7.png) center bottom no-repeat;
@@ -22,7 +22,7 @@
     }
     
     .plano {
-        border: 5px solid #000000;
+        border: 5px solid #F09101;
         border-radius: 16px;
         margin-top: 30px;
         margin: 30px;
@@ -30,14 +30,15 @@
         padding: 10px 15px 32px;
         width: 225px;
         height: 375px;
-    }
+        -moz-box-shadow: 0px 0px 1em #666;
+        -webkit-box-shadow: 1px 1px 2em #f09101; }
     
     .plano_titulo {
         font-family: 'Oswald', sans-serif;
-        text-shadow: 1px 1px #23a0c7;
+        text-shadow: 1px 1px #000;
         font-size: 30px;
         line-height: 46px;
-        color: #fff;
+        color: #F09101;
         font-weight: normal;
         background: transparent;
         margin: 0;
@@ -50,21 +51,20 @@
     }
     
     .plano_linha {
-        border-bottom: 1px solid #4bb5db;
+        border-bottom: 1px solid #fff;
         padding-bottom: 13px;
     }
     
     .plano_botao_clique {
-        background: #ffffff url(../imagens/index/bg-5.gif) 0 0 repeat-x;
-        font-family: 'Oswald';
-        color: #14a9d6;
+        background: #F09101;
+        font-family: 'Avenir 85 Heavy';
+        color: #000;
         text-transform: uppercase;
-        font-size: 13px;
+        font-size: 17px;
         font-weight: bolder;
         padding: 12px 20px;
         border: none;
         cursor: pointer;
-        /* width: 245px; */
         margin-left: 0px;
         top: 25px;
         position: relative;
@@ -76,16 +76,20 @@
     }
     
     .plano_botao_clique:hover {
-        color: #ffffff;
-        background: #000000;
+        color: #000;
+        background: #fff;
     }
     
-    .plano ul {
-        list-style: none;
-        text-align: left;
-        padding-left: 0px;
-        margin-top: 56px;
-    }
+    .plano ul 
+        {
+            list-style: none;
+            text-align: left;
+            padding-left: 0px;
+            margin-top: 56px;
+            color: #fff;
+            font-family: 'Bahnschrift SemiBold';
+        }
+    
     
     .plano li+li {
         background: url(../imagens/index/icon-1.png) 12px 15px no-repeat;
@@ -100,31 +104,8 @@
         padding-left: 30px;
         vertical-align: top;
     }
-    
-    .grade_9 h1 {
-        font-family: 'Oswald', sans-serif;
-        color: #000000;
-        font-size: 30px;
-        line-height: 30px;
-        background: url(../imagens/index/bord-2.png) center bottom no-repeat;
-        text-align: center;
-        text-transform: uppercase;
-        padding-top: 52px;
-        padding-bottom: 28px;
-        letter-spacing: 1px;
-    }
-    
-    .grade_9 p {
-        font-size: 14px;
-        line-height: 24px;
-        color: #000000;
-        padding-top: 14px;
-        font-weight: 600;
-        letter-spacing: 1px;
-        text-align: justify;
-    }
-    
-    .grade_9_banner img {
+        
+    .container_9 img {
         max-width: 100%;
         max-height: 100%;
         width: 100%;
