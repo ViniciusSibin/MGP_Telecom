@@ -104,17 +104,8 @@ footer {
 }
 
 .container_10 {
-    position: relative;
     width: 100%;
-    min-height: 430px;
-    margin: 0 auto;
-    padding: 0;
-    background: transparent;
-    font-size: 100%;
-    border: 0;
-    outline: 0;
-    vertical-align: top;
-    -webkit-text-size-adjust: none;
+    height: 100%;
 }
 
 .grade_1 {

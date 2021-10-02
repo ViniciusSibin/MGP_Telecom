@@ -3,47 +3,9 @@ footer {
     width: 100%;
     bottom: 0px;
 }
-.vagasDescricao {
-    width: 100%;
-}
 
-.vagasDescricaoLE {
-    width: 49%;
-    display: inline-block;
-    vertical-align: top;
-}
 
-.vagasDescricaoLE h1 {
-    font-family: 'Oswald', sans-serif;
-    color: #000000;
-    font-size: 220%;
-    line-height: 30px;
-    text-align: left;
-    padding-top: 28px;
-    margin-left: 21%;
-    padding-bottom: 28px;
-}
-
-.vagasDescricaoLE p {
-    font-size: 100%;
-    line-height: 24px;
-    color: #000000;
-    padding-top: 14px;
-    font-weight: 400;
-    width: 86%;
-    margin-left: 8%;
-}
-
-.vagasDescricaoLD {
-    width: 48%;
-    max-width: 719.91px;
-    max-height: 482px;
-    display: inline-block;
-}
-
-.vagasDescricaoLD img {
-    max-width: 719.91px;
-    max-height: 482px;
+.container_10 img {
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -53,26 +15,4 @@ footer {
 .vagas_botao_tamanho {
     width: 36%;
     margin-left: 28%;
-}
-
-.vagas {
-    font-family: Verdana, Tahoma, Arial;
-    background: #F09101;
-    color: #000;
-    font-size: 16px;
-    font-weight: bolder;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    top: 30px;
-    position: relative;
-    transition: all 0.4s ease-in-out;
-    text-align: center;
-    border-radius: 10px;
-}
-
-.vagas:hover {
-    background-color: #293095;
-    color: #fff;
 }
