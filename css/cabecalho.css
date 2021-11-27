@@ -5,6 +5,13 @@
     position: relative;
     margin-left: 8%;
 }
+
+.cabecalho_logo img {
+    max-width: 200px;
+    width: 100%;
+    margin-top: 3%;
+}
+
 .cabecalho_menu {
     display: inline-block;
     min-height: 100px;
@@ -30,18 +37,6 @@
     min-height: 50px;
 }
 
-.cabecalho_ld_botao {
-    height: 50%;
-    width: 100%;
-    margin-top: 5%;
-}
-
-.cabecalho_logo img {
-    max-width: 200px;
-    width: 100%;
-    margin-top: 3%;
-}
-
 .cabecalho_ld_informacoes_icones ul {
     list-style-type: none;
     padding: 0px;
@@ -53,8 +48,6 @@
 .cabecalho_ld_informacoes_icones li {
     margin: 0px;
     border: 0px;
-    /* height: 100%; */
-    /* width: 35%; */
     display: inline-block;
 }
 
@@ -63,52 +56,29 @@
     width: 100%;
 }
 
-.central_assinante {
+.cabecalho_ld_botao {
+    height: 50%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.cabecalho_ld_botao button {
     background: #f09101;
-    color: #000000;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bolder;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
-    width: 86%;
-    top: -6px;
-    position: relative;
+    width: 100%;
     transition: all 0.4s ease-in-out;
     text-align: center;
-    border-radius: 13px;
+    border-radius: 15px;
 }
 
-.central_assinante:hover {
+.cabecalho_ld_botao button:hover {
     background-color: #293095;
     color: #fff;
-}
-
-.fila {
-    background: transparent;
-    font-size: 100%;
-    margin: 0;
-    margin-top: 0px;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    vertical-align: top;
-    -webkit-text-size-adjust: none;
-}
-
-nav {
-    position: relative;
-    z-index: 11;
-    background: transparent;
-    font-size: 100%;
-    margin: 0;
-    margin-top: 0px;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    vertical-align: top;
-    -webkit-text-size-adjust: none;
 }
 
 .menu_ul {
@@ -173,49 +143,140 @@ nav {
     margin-bottom: 12px;
 }
 
-.rodape {
-    display: inline-block;
-    width: 220px;
-    vertical-align: top;
-    text-align: left;
-}
+@media (max-width: 1000px){
+    .cabecalho_logo {
+        max-height: 150px;
+        max-width: 340px;
+        display: inline-block;
+        position: relative;
+        margin-left: 2%;
+    }
+    
+    .cabecalho_logo img {
+        max-width: 70px;
+        width: 100%;
+        margin-top: 9%;
+    }
 
-.rodape_titulo h5 {
-    font-size: 90%;
-    color: #fff;
-    font-weight: bolder;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    margin: 0px;
-    padding: 5%;
-}
+    .cabecalho_menu {
+        display: inline-block;
+        min-height: 0px;;
+        margin-left: 0%;
+    }
+    
+    .cabecalho_ld {
+        width: 30%;
+        float: right;
+        margin-right: 2%;
+    }
+    
+    .cabecalho_ld_informacoes {
+        width: 100%;
+    }
+    
+    .cabecalho_ld_informacoes_icones {
+        float: right;
+        width: 100%;
+    }
+    
+    .cabecalho_ld_informacoes_icones ul {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        margin-top: 3%;
+    }
+    
+    .cabecalho_ld_informacoes_icones li {
+        margin: 0px;
+        border: 0px;
+        display: inline-block;
+    }
+    
+    .cabecalho_ld_informacoes_icones img {
+        max-height: 16px;
+        width: 100%;
+    }
+    
+    .cabecalho_ld_botao {
+        height: 50%;
+        width: 100%;
+        margin-top: 5%;
+    }
+    
+    .cabecalho_ld_botao button {
+        background: #f09101;
+        text-transform: uppercase;
+        font-size: 6px;
+        font-weight: bolder;
+        padding: 9px 10px;
+        border: none;
+        width: 100%;
+        transition: all 0.4s ease-in-out;
+        text-align: center;
+        border-radius: 15px;
+    }
 
-.rodape_lista ul {
-    padding-left: 6%;
-    margin-top: 0%;
-}
-
-.rodape_lista li {
-    padding-left: 11px;
-    background: url(../imagens/arrow-3.png) 3px 8px no-repeat;
-    margin-bottom: 3%;
-    list-style: none;
-}
-
-.rodape_lista a {
-    font: bold 10px/10px Arial, sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: all 0.4s ease;
-    font-family: 'Oswald', sans-serif;
-}
-
-.rodape_lista a:hover {
-    color: #F09101;
-}
-
-.rodape_logo img {
-    width: 100%;
-    height: 100%;
+    .menu_ul {
+        list-style: none;
+        background: transparent;
+        font-size: 100%;
+        margin: 0;
+        margin-top: 3%;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        vertical-align: top;
+        -webkit-text-size-adjust: none;
+    }
+    
+    .menu_ul li {
+        background: no-repeat;
+        position: relative;
+        float: left;
+        padding-left: 0px;
+        font-size: 100%;
+        margin: 0;
+        margin-top: 0px;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        vertical-align: top;
+        -webkit-text-size-adjust: none;
+    }
+    
+    .menu_ul a {
+        display: block;
+        padding: 8px 6px 8px;
+        text-align: center;
+        font-weight: bolder;
+        position: relative;
+        letter-spacing: 0.2px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 4px;
+        line-height: 0%;
+        margin: 0;
+        margin-top: 0px;
+        border: 0;
+        border-radius: 15px;
+        outline: 0;
+    }
+    
+    .menu_ul a:hover {
+        background: #f09101;
+        color: #000000;
+    }
+    
+    .grade_4 div {
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bolder;
+        color: #fff;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        margin-bottom: 12px;
+    }
 }
