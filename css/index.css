@@ -135,3 +135,39 @@
         background: #4b5cbd;
         border: 5px outset #293095;
     }
+    
+    @media (max-width: 499px) {}
+    
+    @media (max-width: 1000px) {
+        .grade_8 {
+            width: 100%;
+        }
+        .grade_8_organizacao {
+            padding: 25px;
+        }
+        .plano_titulo {
+            font-size: 21px;
+            line-height: 30px;
+        }
+        .plano_botao_clique {
+            font-size: 15px;
+            padding: 10px 18px;
+            border-radius: 13px;
+        }
+        .plano {
+            margin: 9px;
+        }
+        .plano ul {
+            margin-top: 46px;
+        }
+        .container_9 button {
+            width: 199px;
+            height: 38px;
+            margin: -75px 0px 0px 0px;
+            border-radius: 8px;
+            font-size: 11px;
+        }
+        footer {
+            position: absolute;
+        }
+    }
