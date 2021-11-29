@@ -34,8 +34,10 @@ footer {
 }
 
 .container_1 {
-    min-height: 100px;
     background: #293095;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bg-1 {
@@ -74,7 +76,8 @@ footer {
     ;
 }
 
-.container_4 {   background: #293095;
+.container_4 {
+    background: #293095;
     ;
 }
 
@@ -102,13 +105,13 @@ footer {
 
 .container_9 {
     width: 100%;
-    position:relative;
+    position: relative;
 }
 
 .container_10 {
     width: 100%;
-    position:relative;
-    text-align:center;
+    position: relative;
+    text-align: center;
 }
 
 .grade_1 {
@@ -181,6 +184,5 @@ footer {
     width: 100%;
     text-align: center;
 }
-@media (max-width: 1000px) {
-    
-}
+
+@media (max-width: 1000px) {}
