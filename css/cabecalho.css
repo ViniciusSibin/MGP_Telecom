@@ -5,7 +5,6 @@
 .cabecalho_logo img {
     max-width: 200px;
     width: 100%;
-    margin-top: 3%;
 }
 
 .cabecalho_menu {
@@ -36,7 +35,6 @@
     float: right;
     width: 100%;
     height: 100%;
-    min-height: 50px;
 }
 
 .cabecalho_ld_informacoes_icones ul {
@@ -112,4 +110,45 @@ footer div {
     margin-bottom: 12px;
 }
 
-@media only screen and (max-width: 1000px) {}
+@media (max-width: 1340px) {
+    .menu_ul a {
+        padding: 23px 9px 23px;
+    }
+    .cabecalho_menu {
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .cabecalho_ld_informacoes_icones img {
+        max-height: 30px;
+    }
+    .cabecalho_logo img {
+        max-width: 160px;
+    }
+    .menu_ul a {
+        letter-spacing: -0.3px;
+        padding: 23px 7px 23px;
+        font-size: 12px;
+    }
+    .cabecalho_ld_botao button {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .cabecalho_ld_informacoes_icones img {
+        max-height: 17px;
+    }
+    .cabecalho_ld_botao button {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+    .menu_ul a {
+        font-size: 10px;
+        padding: 23px 5px 23px;
+    }
+    .cabecalho_logo img {
+        max-width: 122px;
+    }
+}

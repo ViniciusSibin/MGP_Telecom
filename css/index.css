@@ -136,38 +136,31 @@
         border: 5px outset #293095;
     }
     
-    @media (max-width: 499px) {}
-    
-    @media (max-width: 1000px) {
+    @media (max-width: 1340px) {
         .grade_8 {
             width: 100%;
         }
-        .grade_8_organizacao {
-            padding: 25px;
-        }
-        .plano_titulo {
-            font-size: 21px;
-            line-height: 30px;
-        }
-        .plano_botao_clique {
-            font-size: 15px;
-            padding: 10px 18px;
-            border-radius: 13px;
-        }
         .plano {
-            margin: 9px;
+            margin: 28px;
         }
         .plano ul {
-            margin-top: 46px;
+            margin-top: 45px;
+        }
+        .plano_titulo {
+            font-size: 29px;
         }
         .container_9 button {
-            width: 199px;
-            height: 38px;
-            margin: -75px 0px 0px 0px;
-            border-radius: 8px;
-            font-size: 11px;
-        }
-        footer {
-            position: absolute;
+            margin: -104px -62px 0px 0px;
+            width: 389px;
+            height: 75px;
+            font-size: 26px;
         }
     }
+    
+    @media (max-width: 1000px) {
+        .plano {
+            margin: 20px;
+        }
+    }
+    
+    @media (max-width: 499px) {}
