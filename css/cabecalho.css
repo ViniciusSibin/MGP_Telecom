@@ -93,6 +93,7 @@
         text-decoration: none;
         color: #fff;
         font-size: 13px;
+        border-radius: 15px;
     }
     
     .menu_ul a:hover {
@@ -164,10 +165,40 @@
         .cabecalho_menu {
             margin-left: 0.5%;
         }
-        .grade_8 h1 {
-            font-size: 29px;
-            padding-top: 26px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .cabecalho_ld_informacoes_icones img {
+            max-height: 18px;
+        }
+        .menu_ul a {
+            font-size: 9px;
+            padding: 23px 4px 23px;
+            letter-spacing: -1.3px;
+        }
+        .cabecalho_ld_botao button {
+            font-size: 10px;
+            margin-bottom: 6px;
         }
     }
     
-    @media only screen and (max-width: 600px) {}
+    @media only screen and (max-width: 500px) {
+        .cabecalho_logo img {
+            max-width: 80px;
+        }
+        .cabecalho_ld_botao button {
+            font-size: 8px;
+            margin-bottom: 6px;
+        }
+        .cabecalho_ld_informacoes_icones img {
+            max-height: 12px;
+        }
+        .menu_ul a {
+            font-size: 7px;
+            padding: 23px 2px 23px;
+            letter-spacing: -1px;
+        }
+        footer div {
+            font-size: 10px;
+        }
+    }
