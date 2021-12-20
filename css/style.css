@@ -8,7 +8,7 @@ html {
 
 body {
     text-align: left;
-    background: #293095;
+    background: #1686d8;
     font-family: Verdana, Tahoma, Arial;
     margin: 0;
     padding: 0;
@@ -34,14 +34,12 @@ footer {
 }
 
 .container_1 {
-    background: #293095;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .bg-1 {
-    background: #293095;
     -webkit-text-size-adjust: none;
     display: block;
 }
@@ -72,14 +70,10 @@ footer {
 .container_3 {
     max-height: 170px;
     width: 100%;
-    background: #293095;
     ;
 }
 
-.container_4 {
-    background: #293095;
-    ;
-}
+.container_4 {}
 
 .container_5 {
     max-height: 1000px;
@@ -100,7 +94,6 @@ footer {
 .container_8 {
     min-height: 620px;
     width: 100%;
-    background: #293095;
 }
 
 .container_9 {
