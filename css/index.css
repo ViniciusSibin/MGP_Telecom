@@ -1,7 +1,8 @@
     .grade_8 h1 {
         font-family: 'Oswald', sans-serif;
         color: #F09101;
-        font-size: 30px;
+        font-size: 40px;
+        font-weight: 600;
         line-height: 30px;
         background: url(../imagens/index/bord-7.png) center bottom no-repeat;
         text-align: center;
@@ -9,6 +10,7 @@
         padding-top: 52px;
         padding-bottom: 28px;
         letter-spacing: 1px;
+        text-shadow: 4px 6px #000;
     }
     
     .grade_8_organizacao {
@@ -42,10 +44,10 @@
     .plano_titulo {
         font-family: 'Oswald', sans-serif;
         text-shadow: 1px 1px #000;
-        font-size: 30px;
+        font-size: 28px;
         line-height: 46px;
         color: #F09101;
-        font-weight: normal;
+        font-weight: 600;
         background: transparent;
         margin: 0;
         margin-top: 0px;
@@ -66,13 +68,12 @@
         font-family: 'Avenir 85 Heavy';
         color: #000;
         text-transform: uppercase;
-        font-size: 17px;
-        font-weight: bolder;
-        padding: 12px 20px;
+        font-size: 18px;
+        padding: 15px 20px;
         border: none;
         cursor: pointer;
         margin-left: 0px;
-        top: 25px;
+        top: 34px;
         position: relative;
         line-height: 1.5em;
         outline: none;
@@ -82,6 +83,31 @@
     }
     
     .plano_botao_clique:hover {
+        color: #fff;
+        background: #1686d8;
+    }
+    
+    .plano_botao_clique_meio {
+        background: #fff;
+        font-family: 'Avenir 85 Heavy';
+        color: #000;
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: bolder;
+        padding: 15px 20px;
+        border: none;
+        cursor: pointer;
+        margin-left: 0px;
+        top: 40px;
+        position: relative;
+        line-height: 1.5em;
+        outline: none;
+        transition: all 0.3s ease-in-out;
+        text-align: center;
+        border-radius: 20px;
+    }
+    
+    .plano_botao_clique_meio:hover {
         color: #fff;
         background: #1686d8;
     }
@@ -96,15 +122,18 @@
     }
     
     .plano li+li {
-        background: url(../imagens/index/icon-1.png) 12px 15px no-repeat;
         border-top: 1px solid #d2d2d2;
-        padding-top: 11px;
+        padding-top: 20px;
         padding-bottom: 7px;
     }
     
+    .plano_ul_meio li+li {
+        border-top: 1px solid #fff;
+        padding-top: 26px;
+        padding-bottom: 16px;
+    }
+    
     .plano li {
-        background: url(../imagens/index/icon-1.png) 12px 10px no-repeat;
-        padding-top: 7px;
         padding-left: 30px;
         vertical-align: top;
     }
