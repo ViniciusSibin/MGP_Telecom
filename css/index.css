@@ -1,16 +1,15 @@
     .grade_8 h1 {
-        font-family: 'Oswald', sans-serif;
         color: #F09101;
         font-size: 40px;
         font-weight: 600;
         line-height: 30px;
-        background: url(../imagens/index/bord-7.png) center bottom no-repeat;
+        background: url(../imagens/index/bord-2.png) center bottom no-repeat;
         text-align: center;
         text-transform: uppercase;
         padding-top: 52px;
         padding-bottom: 28px;
         letter-spacing: 1px;
-        text-shadow: 4px 6px #000;
+        text-shadow: 2px 2px #000;
     }
     
     .grade_8_organizacao {
@@ -42,9 +41,8 @@
     }
     
     .plano_titulo {
-        font-family: 'Oswald', sans-serif;
         text-shadow: 1px 1px #000;
-        font-size: 28px;
+        font-size: 25px;
         line-height: 46px;
         color: #F09101;
         font-weight: 600;
@@ -65,7 +63,6 @@
     
     .plano_botao_clique {
         background: #F09101;
-        font-family: 'Avenir 85 Heavy';
         color: #000;
         text-transform: uppercase;
         font-size: 18px;
@@ -89,7 +86,6 @@
     
     .plano_botao_clique_meio {
         background: #fff;
-        font-family: 'Avenir 85 Heavy';
         color: #000;
         text-transform: uppercase;
         font-size: 17px;
@@ -118,7 +114,6 @@
         padding-left: 0px;
         margin-top: 62px;
         color: #000;
-        font-family: 'Bahnschrift SemiBold';
     }
     
     .plano li+li {
@@ -160,7 +155,6 @@
         background: #d67223;
         border: 5px outset #e97c29;
         font-size: 27px;
-        font-family: "raleway";
         font-weight: bolder;
         color: #FFF;
     }

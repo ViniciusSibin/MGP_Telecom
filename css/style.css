@@ -73,12 +73,10 @@ footer {
     ;
 }
 
-.container_4 {}
-
 .container_5 {
-    max-height: 1000px;
+    height: 1000px;
     width: 100%;
-    background: #f09101;
+    background: #f5f1f1;
 }
 
 .container_6 {
@@ -94,6 +92,7 @@ footer {
 .container_8 {
     min-height: 620px;
     width: 100%;
+    background-color: #f5f1f1;
 }
 
 .container_9 {
