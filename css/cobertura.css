@@ -1,6 +1,11 @@
-                .legenda h1 {
+               .bg_legenda{
+                width: 100%;
+                height: 215px;
+                background: #f09101;
+               }
+               .legenda h1 {
                     font-size: 170%;
-                    color: #f09101;
+                    color: #000;
                     text-shadow: 1px 1px #000;
                     font-weight: bolder;
                     text-transform: uppercase;
@@ -45,6 +50,8 @@
                 .coberturaLojasInformacoes1Descricao {
                     width: 620px;
                     height: 150px;
+                    color: #fff;
+                    padding-left: 15px;
                     border-right: 5px outset #e97c29;
                     border-left: 5px outset #e97c29;
                 }
@@ -52,7 +59,7 @@
                 .coberturaLojasInformacoes1Maps img {
                     max-width: 100px;
                     margin-top: 20px;
-                    margin-left: 20px;
+                    margin-left: 2px;
                 }
                 
                 .coberturaLojasInformacoes1 {
@@ -79,5 +86,5 @@
                 .coberturaLojasInformacoes2Maps img {
                     max-width: 100px;
                     margin-top: 20px;
-                    margin-right: 20px;
+                    margin-right: 2px;
                 }
