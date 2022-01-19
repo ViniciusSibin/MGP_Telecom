@@ -32,6 +32,12 @@
                    font-weight: bold;
                }
                
+               .bg_coberturaLojas {
+                   max-width: 100%;
+                   background-repeat: round;
+                   background-image: url("../imagens/Cobertura/bg_cobertura.png");
+               }
+               
                .coberturaLojas {
                    margin-top: 30px;
                    margin-bottom: 15px;
