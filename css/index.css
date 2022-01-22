@@ -29,7 +29,7 @@
         margin-top: 30px;
         margin: 30px;
         text-align: center;
-        padding: 10px 15px 32px;
+        padding: 10px;
         width: 225px;
         height: 347px;
         -moz-box-shadow: 0px 0px 1em #666;
@@ -43,7 +43,7 @@
     .plano_titulo {
         text-shadow: 1px 1px #000;
         font-size: 25px;
-        line-height: 46px;
+        line-height: 37px;
         color: #F09101;
         font-weight: 600;
         background: transparent;
@@ -54,6 +54,13 @@
         outline: 0;
         vertical-align: top;
         text-align: center;
+    }
+    
+    .plano_titulo_meio {
+        color: #fff;
+        text-shadow: 2px 3px #000;
+        font-weight: 800;
+        font-size: 28px;
     }
     
     .plano_linha {
@@ -70,7 +77,7 @@
         border: none;
         cursor: pointer;
         margin-left: 0px;
-        top: 34px;
+        margin-top: 20px;
         position: relative;
         line-height: 1.5em;
         outline: none;
@@ -84,6 +91,13 @@
         background: #1686d8;
     }
     
+    .plano_ul_meio {
+        color: #fff;
+        font-size: 20px;
+        padding-top: 30px;
+        margin-top: 30px;
+    }
+    
     .plano_botao_clique_meio {
         background: #fff;
         color: #000;
@@ -94,7 +108,7 @@
         border: none;
         cursor: pointer;
         margin-left: 0px;
-        top: 40px;
+        margin-top: 40px;
         position: relative;
         line-height: 1.5em;
         outline: none;
@@ -112,7 +126,7 @@
         list-style: none;
         text-align: left;
         padding-left: 0px;
-        margin-top: 62px;
+        margin-top: 27px;
         color: #000;
     }
     
@@ -129,7 +143,7 @@
     }
     
     .plano li {
-        padding-left: 30px;
+        padding-left: 15px;
         vertical-align: top;
     }
     
@@ -170,6 +184,9 @@
         }
         .plano {
             margin: 28px;
+        }
+        .plano:hover {
+            transform: none;
         }
         .plano ul {
             margin-top: 45px;
@@ -222,15 +239,26 @@
         .plano {
             margin: 4px;
             height: 334px;
+            padding: 4px;
         }
         .plano_titulo {
             font-size: 20px;
         }
         .plano_botao_clique {
             font-size: 14px;
+            margin-top: 16px;
+        }
+        .plano_botao_clique_meio {
+            margin-top: 22px;
+        }
+        .plano ul {
+            margin-top: 24px;
         }
         .plano li {
             font-size: 12px;
+        }
+        .plano_ul_meio li {
+            margin-bottom: 14px;
         }
         .container_9 button {
             margin: -65px -56px 0px 0px;
@@ -238,6 +266,22 @@
             height: 41px;
             font-size: 16px;
             border-radius: 17px;
+        }
+    }
+    
+    @media only screen and (max-width: 650px) {
+        .plano_titulo {
+            font-size: 18px;
+            line-height: 38px;
+        }
+        .plano {
+            height: 324px;
+        }
+        .plano li {
+            padding-left: 12px;
+        }
+        .plano_ul_meio {
+            margin-top: 5px;
         }
     }
     
@@ -256,7 +300,6 @@
         .plano li {
             font-size: 10px;
             padding-left: 7px;
-            /* background: url(../imagens/index/icon-1.png) 12px 10px no-repeat; */
         }
         .container_9 button {
             margin: -53px -49px 0px 0px;
@@ -283,7 +326,6 @@
         .plano li {
             font-size: 9px;
             padding-left: 0px;
-            /* background: url(../imagens/index/icon-1.png) 12px 10px no-repeat; */
         }
         .plano_linha {
             padding-bottom: 3px;
