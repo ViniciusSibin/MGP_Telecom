@@ -205,4 +205,14 @@
         }
     }
     
-    @media only screen and (max-width: 375px) {}
+    @media only screen and (max-width: 376px){
+        .cabecalho_ld_botao button {
+        font-size: 7px;
+        }
+        .menu_ul a {
+            padding: 8px 2px 8px;
+        }
+        footer div {
+            font-size: 7px;
+        }
+    }

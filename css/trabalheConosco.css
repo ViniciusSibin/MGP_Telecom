@@ -80,3 +80,13 @@
             height: 4%;
         }
     }
+
+    @media only screen and (max-width: 376px){
+    .container_10 button {
+    font-size: 40%;
+    }
+    .container_10 button:hover {
+        background: #d67223;
+        border: 5px outset #e97c29;
+    }   
+}
