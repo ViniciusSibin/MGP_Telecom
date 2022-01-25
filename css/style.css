@@ -192,3 +192,9 @@ footer {
         min-height: 537px;
     }
 }
+
+@media only screen and (max-width: 377px) {
+    .grade_6 {
+        width: 95%;
+    }
+}

@@ -205,27 +205,27 @@
         }
     }
     
-    @media only screen and (max-width: 416px){
+    @media only screen and (max-width: 416px) {
         .cabecalho_ld_botao button {
-        font-size: 7px;
-        
+            font-size: 7px;
         }
         .menu_ul a {
             padding: 8px 2px 8px;
+            border-radius: 10px;
         }
         footer div {
             font-size: 7px;
         }
     }
-
-    @media only screen and (max-width: 362px){
+    
+    @media only screen and (max-width: 376px) {
         .cabecalho_ld_botao button {
             border-radius: 10px;
         }
-
         .menu_ul a {
-            padding: 4px 2px 4px;
+            padding: 4px 1.5px 4px;
             border-radius: 7px;
             font-size: 6px;
+            letter-spacing: 0px;
         }
-    }  
+    }
