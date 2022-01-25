@@ -32,8 +32,22 @@
         padding: 10px;
         width: 225px;
         height: 347px;
-        -moz-box-shadow: 0px 0px 1em #666;
+        
         -webkit-box-shadow: 1px 1px 2em #f09101;
+    }
+
+    .plano_meio{
+        border: 5px solid #fff;
+        border-radius: 16px;
+        background: #f09101;
+        margin-top: 30px;
+        margin: 30px;
+        text-align: center;
+        padding: 10px;
+        width: 275px;
+        height: 400px;
+        -moz-box-shadow: 0px 0px 1em #666;
+       -webkit-box-shadow: 1px 1px 2em #fff;
     }
     
     .plano:hover {
@@ -188,6 +202,9 @@
         .plano:hover {
             transform: none;
         }
+        .plano_meio {
+            margin: 28px;
+        }
         .plano ul {
             margin-top: 45px;
         }
@@ -206,6 +223,10 @@
         .plano {
             margin: 16px;
         }
+
+        .plano_meio {
+            margin: 16px;
+        }
         .grade_8_organizacao {
             padding: 40px 0px;
         }
@@ -219,6 +240,9 @@
     
     @media only screen and (max-width: 850px) {
         .plano {
+            margin: 10px;
+        }
+        .plano_meio {
             margin: 10px;
         }
         .plano_titulo {
@@ -237,6 +261,12 @@
     
     @media only screen and (max-width: 720px) {
         .plano {
+            margin: 4px;
+            height: 334px;
+            padding: 4px;
+        }
+
+        .plano_meio {
             margin: 4px;
             height: 334px;
             padding: 4px;
@@ -275,6 +305,10 @@
             line-height: 38px;
         }
         .plano {
+            height: 324px;
+        }
+
+        .plano_meio {
             height: 324px;
         }
         .plano li {
@@ -337,11 +371,64 @@
             margin: 4px;
             height: 300px;
         }
+
+        .plano_meio {
+            margin: 4px;
+            height: 300px;
+        }
+
         .container_9 button {
             margin: -45px -47px 0px 0px;
             width: 182px;
             height: 27px;
             font-size: 11px;
             border-radius: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 377px) {
+        .plano {
+            height: 268px;
+            padding: 2px;
+            margin: 2px;
+        }
+
+        .plano_botao_clique {
+            padding: 6px 1px;
+            top: 0px;
+            border-radius: 10px;
+        }
+
+        .plano ul {
+            margin-top: 15px;
+        }
+
+        .plano_meio{
+            border: 2px solid #fff;
+            height: 355px;
+        }
+
+        .plano_titulo_meio {
+            text-shadow: 1px 2px #000;
+            font-size: 13px;
+            margin-top: 6px;
+            margin-bottom: 10px;
+        }
+
+        .plano_botao_clique_meio {
+            font-size: 12px;
+            padding: 10px 2px;
+            border-radius: 15px;
+        }
+
+        .plano_ul_meio {
+            padding-top: 12px;
+            font-size: 10px;
+        }
+        .plano_ul_meio li+li {
+            margin-left: -1px;
+            border-top: 1px solid #fff;
+            padding-top: 24px;
+            padding-bottom: 12px;
         }
     }
