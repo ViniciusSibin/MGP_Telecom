@@ -35,18 +35,61 @@
                 transform: scale(1.2);
             }
             
-            @media only screen and (max-width: 1340px) {}
+            @media only screen and (max-width: 1340px) {
+                .sobreImagens img {
+                    max-width: 116%;
+                }
+                .sobreImagensInformacoes1:hover {
+                    transform: none;
+                }
+                .sobreImagensInformacoes2:hover {
+                    transform: none;
+                }
+            }
+            
+            @media only screen and (max-width: 1026px) {
+                .sobreImagens {
+                    margin-top: 0px;
+                }
+                .grade_6 {
+                    width: 80%;
+                }
+                .sobreImagensInformacoes2 {
+                    margin-left: 220px;
+                }
+            }
+            
+            @media only screen and (max-width: 560px) {
+                .sobreImagens {
+                    margin-top: 6px;
+                }
+                .sobreImagensInformacoes2 {
+                    width: 82%;
+                    margin-left: 106px;
+                }
+            }
+            
+            @media only screen and (max-width: 420px) {
+                .sobreImagens {
+                    margin-top: 10px;
+                }
+                .sobreImagensInformacoes2 {
+                    margin-left: 85px;
+                }
+                .sobreImagens img {
+                    border: 3px outset #e97c29;
+                }
+            }
             
             @media only screen and (max-width: 377px) {
                 .sobreImagens {
                     margin-top: 0px;
                 }
                 .sobreImagens img {
-                    border: 3px outset #e97c29;
-                    max-width: 130%;
+                    max-width: 116%;
                 }
                 .sobreImagensInformacoes2 {
-                    margin-left: 20%;
+                    margin-left: 22%;
                 }
                 .sobreImagensInformacoes1:hover {
                     transform: none;
